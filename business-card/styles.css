@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    border: 1px dotted blue;
+    padding: 20px;
+    justify-content: space-around;
+    width: 400px;
+    text-align: center;
+    background: #d3eff8;
+    border-bottom: 5px solid #bda5ee;
+    margin-inline: auto;
+    margin-top: 50px;
+}
