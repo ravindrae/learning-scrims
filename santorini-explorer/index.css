@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    text-align: center;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Spinnaker", sans-serif;
+}
+
+.hero {
+    color: white;
+    background: url("images/hero-light.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-heading {
+    margin: 0;
+    background: #1D3557;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+#hero-subheading {
+    width: 510px;
+    background: #457B9D;
+    padding: 5px 28px;
+    border-radius: 10px;
+}
+
+#places {
+    background: #F1FAEE;
+}
+
+#places-heading {
+    margin: 0;
+    padding: 40px 0 0 0;
+}
+
+#places-list {
+    padding: 40px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.places-list-item {
+    width: 200px;
+}
+
+.place-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#footer {
+    padding: 50px 0px;
+}
+
+.card {
+    display: flex;
+    width: 400px;
+    height: 294px;
+    border-radius: 10px;
+    padding: 23px 13px;
+    background: #A8DADC;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#card-img {
+    width: 180px;
+    border-radius: 10px;
+}
