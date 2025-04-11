@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scoreboard</title>
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="board">
+        <div class="board-item">
+            <h1>HOME</h1>
+            <div class="score-wrapper">
+                <p id="home-score" class="score">0</p>
+            </div>
+            <div>
+                <button onclick="incrementHomeScoreOne()">+1</button>
+                <button onclick="incrementHomeScoreTwo()">+2</button>
+                <button onclick="incrementHomeScoreThree()">+3</button>
+            </div>
+        </div>
+        <div class="board-item">
+            <h1>GUEST</h1>
+            <div class="score-wrapper">
+                <p id="guest-score" class="score">0</p>
+            </div>
+            <div>
+                <button onclick="incrementGuestScoreOne()">+1</button>
+                <button onclick="incrementGuestScoreTwo()">+2</button>
+                <button onclick="incrementGuestScoreThree()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
