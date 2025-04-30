@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s03vbtp",
-  "description": "https://scrimba.com/frontend-path-c0j/~0c4",
+  "name": "nft-site",
+  "description": "NFT site",
   "scripts": {
     "start": "vite",
     "dev": "vite",

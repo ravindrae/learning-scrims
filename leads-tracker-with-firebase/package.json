@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s06hgom",
-  "description": "https://scrimba.com/frontend-path-c0j/~02r7/s0scm7ha8d/head",
+  "name": "leads-tracker-with-firebase",
+  "description": "Leads tracking with firebase as backend",
   "scripts": {
     "start": "vite",
     "dev": "vite",

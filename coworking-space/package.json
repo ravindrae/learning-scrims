@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s036g6d",
-  "description": "https://scrimba.com/frontend-path-c0j/~0dd",
+  "name": "coworking-space",
+  "description": "Coworking space static site",
   "scripts": {
     "start": "vite",
     "dev": "vite",

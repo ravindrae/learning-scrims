@@ -1,6 +1,6 @@
 {
-  "name": "stock-predictions-ai",
-  "description": "https://scrimba.com/the-ai-engineer-path-c02v/~015",
+  "name": "Stock Precitor",
+  "description": "Stock predictions using AI",
   "scripts": {
     "start": "vite",
     "dev": "vite",

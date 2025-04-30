@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s02tiqc",
-  "description": "https://scrimba.com/frontend-path-c0j/~0fk",
+  "name": "meme-picker",
+  "description": "Meme picker with cats",
   "scripts": {
     "start": "vite",
     "dev": "vite",

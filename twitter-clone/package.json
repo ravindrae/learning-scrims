@@ -1,6 +1,6 @@
 {
-  "name": "cookie-consent",
-  "description": "Cookie consent banner for websites",
+  "name": "Twitter Clone",
+  "description": "Twitter sample clone",
   "scripts": {
     "start": "vite",
     "dev": "vite",
