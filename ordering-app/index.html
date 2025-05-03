@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Mani's Dine</title>
+    </head>
+    <body>
+        <header class="relative">
+            <div class="overlay"></div>
+            <h1 class="relative">Mani's Dine</h1>
+            <p class="relative">Taste welcomes you</p>
+        </header>
+
+        <main>
+            <section>
+                <ul class="dishes">
+                    <li class="dish">
+                        <img src="salad.jpg" alt="A plate full of veggie salad">
+                        <div>
+                            <h3>Salad</h3>
+                            <p>Capsicum, Onion, Tomato, etc.</p>
+                            <p>₹150</p>
+                        </div>
+                        <button class="add-btn">+</button>
+                    </li>
+                    <li class="dish">
+                        <img src="salad.jpg" alt="A plate full of veggie salad">
+                        <div>
+                            <h3>Salad</h3>
+                            <p>Capsicum, Onion, Tomato, etc.</p>
+                            <p>₹150</p>
+                        </div>
+                        <button class="add-btn">+</button>
+                    </li>
+                    <li class="dish">
+                        <img src="salad.jpg" alt="A plate full of veggie salad">
+                        <div>
+                            <h3>Salad</h3>
+                            <p>Capsicum, Onion, Tomato, etc.</p>
+                            <p>₹150</p>
+                        </div>
+                        <button class="add-btn">+</button>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="order-summary">
+                <h3>Your Order</h3>
+                <ul>
+                    <li>
+                        <p>Salad</p>
+                        <a href="#">remove</a>
+                        <p class="dish-price">₹150</p>
+                    </li>
+                </ul>
+                <div class="total-summary">
+                    <h4>Total price</h4>
+                    <p>₹150</p>
+                </div>
+            </section>
+        </main>
+
+        <div class="modal hidden">
+            <h3>Enter card details</h3>
+            <form action="">
+                <input type="text" name="name" placeholder="Enter your name" aria-label="Name of the card holder">
+                <input type="text" name="card_number" placeholder="Enter card number" aria-label="Card number">
+                <input type="text" name="cvv" placeholder="Enter CVV" aria-label="CVV">
+                <button type="submit" id="pay">Pay</button>
+            </form>
+        </div>
+
+	    <script src="index.js"></script>
+    </body>
+</html>
+
